@@ -28,10 +28,12 @@ no account is selected and seller/buyer behavior is disabled. Legacy
 `AuctionHouseBot.*` main-config settings remain compatible during this first
 migration slice.
 
-The current build boundary has been verified both enabled and with
-`MODULE_MOD_AHBOT=OFF`. The enabled disposable replay loads an active
-`ahbot.conf`, exercises both command forms, realizes the exact seller target,
-and completes the capped buyer phase with clean shutdowns.
+The module boundary has been build-tested both enabled and with
+`MODULE_MOD_AHBOT=OFF`. A prior development-checkpoint replay loaded an active
+`ahbot.conf`, exercised both command forms, realized the seller target, and
+completed the capped buyer phase with clean shutdowns. The publication candidate
+passed the four core/module build combinations documented in the core repository;
+its exact final revisions have not received a new seller/buyer runtime replay.
 
 Pricing is intentionally unchanged. Current valuation is suitable for mechanics
 tests, not a claim about a healthy Cataclysm economy. Market candidates continue
@@ -40,3 +42,7 @@ to come from authoritative loaded Cata data rather than imported WotLK tables.
 This module carries TrinityCore-derived GPL-2.0-or-later source. Original file
 notices remain in place; see [LICENSE](LICENSE),
 [TrinityCore authors](TRINITYCORE_AUTHORS), and [provenance](PORTING.md).
+
+Reports should include core/module commit IDs and reproduction steps. Remove
+credentials and private account details from configuration excerpts and logs;
+do not upload database dumps, clients, or extracted game data.

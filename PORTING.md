@@ -18,9 +18,13 @@ The matching core fork provides optional-module discovery, configuration
 loading, and narrow AHBot initialization/update/auction-mail identity hooks.
 This module is compiled statically into that core. It is not an AzerothCore
 binary module or a promise of compatibility with other TrinityCore revisions.
-The first public release must record an exact matching core commit and replay
-the enabled/disabled build and disposable seller/buyer checks from those exact
-revisions.
+The matching module revision is recorded in the core README. Build combinations
+and prior disposable seller/buyer checks are documented in the core repository's
+`doc/local/core/PUBLISHING_CHECKLIST.md`; a runtime replay of the final published
+combination remains pending. These are experimental source snapshots.
 
 License: GNU GPL version 2 or later, consistent with the retained source
 headers. See [LICENSE](LICENSE) and [TRINITYCORE_AUTHORS](TRINITYCORE_AUTHORS).
+The authors file is retained from upstream; its references to `COPYING` and the
+upstream repository describe that project. This module's license text is in
+`LICENSE`, and its extracted source ancestry is identified above.

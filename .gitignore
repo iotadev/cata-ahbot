@@ -4,3 +4,5 @@ cmake-build-*/
 *.conf
 *.log
 *.bak
+test-db-credentials.json
+test-login.txt
