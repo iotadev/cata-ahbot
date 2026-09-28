@@ -1,0 +1,20 @@
+[worldserver]
+
+# mod-ahbot remains inert until an account and at least one seller or buyer path
+# are explicitly enabled. Legacy AuctionHouseBot.* settings in worldserver.conf
+# remain compatible during the module migration; values in this active module
+# file override matching main-config values.
+
+AuctionHouseBot.Account = 0
+AuctionHouseBot.Seller.Enabled = 0
+AuctionHouseBot.Buyer.Enabled = 0
+AuctionHouseBot.Buyer.Alliance.Enabled = 0
+AuctionHouseBot.Buyer.Horde.Enabled = 0
+AuctionHouseBot.Buyer.Neutral.Enabled = 0
+
+# Cata market-policy additions. Pricing remains the native placeholder model.
+AuctionHouseBot.Items.Crafted = 0
+AuctionHouseBot.SupplyProfile.Enabled = 0
+AuctionHouseBot.Buyer.EvaluationsPerCycle.Normal = 20
+AuctionHouseBot.Buyer.EvaluationsPerCycle.Boost = 1000
+AuctionHouseBot.Buyer.ActionsPerCycle = 0

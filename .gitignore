@@ -1,0 +1,6 @@
+# Generated build and local runtime configuration belong outside the source snapshot.
+build/
+cmake-build-*/
+*.conf
+*.log
+*.bak
