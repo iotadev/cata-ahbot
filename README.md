@@ -7,8 +7,9 @@ controls developed in this checkout.
 
 This is a separate source repository intended to be checked out at
 `modules/mod-ahbot` inside a matching core fork. It is not installable against
-stock TrinityCore or an arbitrary core revision. A compatible core commit will
-be pinned here when the coordinated first public snapshot is selected.
+stock TrinityCore or an arbitrary core revision. Use the matching source
+snapshot of the [iotadev TrinityCore fork](https://github.com/iotadev/TrinityCore);
+the core README records the AHBot revision tested with that snapshot.
 
 This is a source module, not a drop-in AzerothCore binary module. It uses the
 fork's optional-module build convention and a narrow core bridge for world
